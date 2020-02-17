@@ -1,0 +1,21 @@
+#search {
+width:300px;
+    text-align: center;
+    height: 30px;
+    }
+
+.container {
+    height: 35px;
+    width: 350px;
+
+}
+ul {
+    list-style-type: none;
+  
+}
+
+ #line li {
+    display: inline;
+    list-style: none;
+
+}
