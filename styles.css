@@ -14,3 +14,8 @@ ul {
     float: left;
     text-decoration: none;
   }
+
+  #search {
+    margin-top: 21px;
+    margin-left: 500px;   
+  }
