@@ -64,3 +64,7 @@ button .search-btn{
     width: 62px;
     height: 38px;
 }
+
+.video_container {
+    margin-left: 20px;
+}
