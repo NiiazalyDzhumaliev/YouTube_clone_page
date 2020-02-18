@@ -5,7 +5,7 @@ ul {
     overflow: hidden;
     background-color: #ffffff;
     width: 100%;
-    height: 200px;
+    height: 100px;
   }
 
   li {
@@ -19,13 +19,28 @@ ul {
   }
   .navbar-logo {
     margin: 0px 0px 0px 0px;
+    height: 24px;
+    padding-top: 14px;
+   
   }
 
+  img{
+    height: 42px;
+    width: 80px;
+    padding-top: 14px;
+
+  }
+.navbar_menu{
+    height: 42px;
+    width: 32px;
+    padding-top: 14px;
+
+  }
   #search {
     margin-top: 0px;
-    margin-left: 300px;  
-    width: 280px;
-    height: 32px;
+    margin-left: 50px;  
+    width: 564px;
+    height: 26px;
     color: dimgray;
     font-size: 15px;
     
@@ -35,7 +50,7 @@ ul {
     margin-top: 21px;
     margin-right: 0px;
     margin-left: 0px;
-    padding: 14px 0px;
+    padding: 14px 0px 0px 0px;
     color: black; 
     width: 32px;
     height: 32px;
@@ -43,26 +58,26 @@ ul {
   }
 .notification-btn {
     margin-top:21px;
-    padding: 14px 0px 10px 400px;
-    width: 38px;
-    height: 38px;
+    padding: 14px 0px 10px 200px;
+    width: 26px;
+    height: 26px;
 
     
 }
 .avator-btn {
     margin-top: 21px;
     padding:14px 0px 10px 30px;
-    width: 38px;
-    height: 38px;
+    width: 26px;
+    height: 32px;
    
 }
 button{
-    width: 38px;
-    height: 38px;
+  width: 26px;
+  height: 32px;
 }
 button .search-btn{
     width: 62px;
-    height: 38px;
+    height: 32px;
 }
 
 .video_container {
@@ -74,3 +89,12 @@ button .search-btn{
 h1,h2,h3 {
   color:#8b8989
 }
+.flex{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  
+}
+ 
