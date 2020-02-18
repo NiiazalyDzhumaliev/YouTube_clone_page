@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>YouTube Clone Page</title>
 </head>
 <body>
     <header>
         <nav>
-            <img src="/home/niiazaly/Documents/Web_projects_on_Microverse/YouTube_clone_page/src/images/icons8-youtube-play-64.png" alt="YouTube logo">    
-            
-            
-
-        </nav>
+            <ul>
+                <li class="navbar-logo"><img src="./src/images/icons8-youtube-play-64.png" alt="YouTube logo">YouTube</li>
+                <li class="navbar"><input type="text" id="search" placeholder="search" value="Search"/>
+                </li>
+                <li id="search-btn"><button type="button"><i class="fa fa-search"></i></button></li>
+                <li class="notification-btn"><button type="button"><i class="fa fa-bell" aria-hidden="true"></i></i></button></li>
+                <li class="avator-btn"><button type="button"><i class="fa fa-user"></i></button></li>
+            </ul>  
+        </nav>                    
+                   
     </header>
+
+
+    <section class="video_container">
+        <iframe id="youtube_video" src="https://www.youtube.com/embed/gTEXJsw62iU" frameborder="0" width="754" height="400">
+        
+        </iframe>
+
+    </section>
+
 </body>
 </html>
