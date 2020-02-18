@@ -67,27 +67,10 @@ button .search-btn{
 
 .video_container {
     margin-left: 20px;
-    display: inline-block
 }
 .video_title {
   font-family: 'Roboto', sans-serif;
-  color: black;
 }
-.views {
-  color:#8b8989;
-    
+h1,h2,h3 {
+  color:#8b8989
 }
-
-.views_amount{
-  width: 300px;
-}
-
-.like_dislike_icons {
-  display: inline-block;
-  text-align: right;
-}
-
-
-
-
-
