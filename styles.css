@@ -82,9 +82,11 @@ button .search-btn{
 
 .video_container {
     margin-left: 20px;
+    display: inline-block
 }
 .video_title {
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
 h1,h2,h3 {
   color:#8b8989
