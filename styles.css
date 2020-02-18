@@ -82,11 +82,9 @@ button .search-btn{
 
 .video_container {
     margin-left: 20px;
-    display: inline-block
 }
 .video_title {
   font-family: 'Roboto', sans-serif;
-  color: black;
 }
 h1,h2,h3 {
   color:#8b8989
@@ -99,4 +97,20 @@ h1,h2,h3 {
   float: left;
   
 }
- 
+.flex-likes{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  
+  
+}
+
+.likes{
+  
+  width: 12px;
+  height: 12px;
+  margin: 0 15px;
+} 
+
