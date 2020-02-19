@@ -375,5 +375,19 @@ line-height:21px;
   font-weight: 400;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
 
+.left-icons {
+  padding-left: 20px;
+}
 
+.right-icons {
+  padding-right: 20px;
+}
+
+#search {
+  width: 30em;
+}
