@@ -378,6 +378,7 @@ line-height:21px;
 header {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .left-icons {
