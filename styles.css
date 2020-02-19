@@ -392,3 +392,9 @@ header {
 #search {
   width: 30em;
 }
+
+.search-button {
+  width:50px;
+  height: 26px;
+  
+}
