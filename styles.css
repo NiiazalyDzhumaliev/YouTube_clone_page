@@ -376,20 +376,4 @@ line-height:21px;
 }
 
 
-header {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
 
-.left-icons {
-  padding-left: 20px;
-}
-
-.right-icons {
-  padding-right: 20px;
-}
-
-#search {
-  width: 30em;
-}
