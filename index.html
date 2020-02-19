@@ -8,63 +8,92 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/efff5ee4a8.js"></script>
+    <script src="https://kit.fontawesome.com/d4de0f4540.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>YouTube Clone Page</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="navbar-menu"><img src="./src/images/menu.png" alt="YouTube logo"></li>
-                <li class="navbar-logo"><img src="./src/images/youtube.png" alt="YouTube logo">YouTube</li>
-                <li class="navbar"><input type="text" id="search" placeholder="search" value="Search" />
-                </li>
-                <li id="search-btn"><button type="button"><i class="fa fa-search"></i></button></li>
-                <li class="notification-btn"><button type="button"><i class="fa fa-bell"
-                            aria-hidden="true"></i></i></button></li>
-                <li class="avator-btn"><button type="button"><i class="fa fa-user"></i></button></li>
-            </ul>
-        </nav>
+    
+    <body>
+            <header>
+                <span class="left-icons">
+                  <i class="fa fas fa-bars fa-2x"></i>
+                  <i class="fa fab fa-youtube fa-2x"></i>
+                </span>
+            
+                <span class="search-area">
+                  <input type="text" id="search" name="search" placeholder="Search...">
+                  <button type="button" <i class="fa fas fa-search fa-2x"></i></button>
+                </span>
+            
+                <span class="right-icons">
+            
+            
+                  <i class="fa far fa-bell fa-2x"></i>
+            
+                  <i class="fa fas fa-user fa-2x"></i>
+            
+                  <i class="fa fas fa-camera fa-2x"></i>
+            
+                </span>
+            
+            
+            
+              </header>
 
-    </header>
-
-
-    <section class="video_container">
-        <iframe id="youtube_video" src="https://www.youtube.com/embed/gTEXJsw62iU" frameborder="0" width="850"
-            height="480">
-
-        </iframe>
-
-        <div class="video_title">
-            <h3>KENYA BIOGRAPHY</h3>
+   
+    <section class="container">
+        <div class="content-container">
+            <div class="video-player">
+                <iframe class="video"  src="https://www.youtube.com/embed/gTEXJsw62iU"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+                <h1>KENYA | Trip of a lifetime</h1>
+            <div class="view-bar">
+                <div class="views">
+                    <p>497,775 views•Aug 15, 2018</p>
+                </div>
+                <div>
+                    <div class="shares-btn">
+                        <button type="button" class="fa fas fa-thumbs-up"></button>
+                        <label>19K</label>
+                        <button type="button" class="fa fas fa-thumbs-down"></button>
+                        <label>210</label>
+                        <button type="button" class="fa fas fa-share"></button>
+                        <label>SHARE</label>
+                        <button type="button" class="fa fas fa-folder-plus"></button>
+                        <label>SAVE</label>
+                        <button type="button" class="fa fas fa-ellipsis-h"></button>
+                    </div>
+                    <div class="sentiment-bar">
+                        <div class="inside-bar"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="channel">
+                <div class="avatar">
+                    <img id="avatar" src="https://yt3.ggpht.com/a/AGF-l7_KoVwUHRRtFb2ibmEa4Mxk0pMG5TD_tU8Q_w=s48-c-k-c0xffffffff-no-rj-mo" alt="avatar-logo">
+                    <div class="title">
+                        <div class="name-container">
+                            <a class="name" href="#">MrBrynnorth</a>
+                            <i class="fa fas fa-check-circle"></i>
+                        </div>
+                        <p class="subscribers">106K subscribers</p>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <button type="button" name="subscribe-btn" class="subscribe-btn">SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="description">
+                <p class="description">Kenya, a bunch of friends and 3 Land Rovers....the perfect mix to a great African adventure. We spent just over 2 weeks cruising through Kenya witnessing some amazing sights as we passed by Mount Kenya,  the Masai Mara, Naivasha, Hells Gate, Lake Nakuru, Lake Bogoria and even the</p>
+                <button type="button" name="show-more" class="show-more">SHOW MORE</button>
+            </div>
         </div>
-        <div class="flex">
-            <h3>3,000,000 Views </h3>
-            <h3>- Feb 23, 2020</h3>
-
-        </div>
-        <div class="flex-likes">
-            <h3 class="likes"><i class="fa fas fa-thumbs-up"></i>2</h3>
-            <h3 class="likes"><i class="fa fas fa-thumbs-down"></i>2000</h3>
-            <h3 class="share"><i class="fa fas fa-share-square"></i>Share</h3>
-        </div>
-
+        <p class="comments">1,605 Comments</p>
     </section>
-    <section class="user_info">
-
-
-        <img id="avatar" src="./src/images/global-icon.png" alt="users_image">
-        <div class="user_name">
-            <p>Mkenya</p>
-            <p>1000 Subscribers</p>
-            <a ref="#">Show More</a>
-        </div>
-
-        <div class="subscribe">
-            <button type="button" id="subscribe-btn">SUBSCRIBE</button>
-        </div>
-    </section>
+    
 
 
 
