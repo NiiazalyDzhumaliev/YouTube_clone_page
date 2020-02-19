@@ -382,11 +382,17 @@ header {
 }
 
 .left-icons {
+  display: flex;
+  justify-content: space-between;
   padding-left: 20px;
+  width: 80px;
 }
 
 .right-icons {
+  display: flex;
+  justify-content: space-between;
   padding-right: 20px;
+  width: 100px;
 }
 
 #search {
