@@ -1,3 +1,23 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -66,8 +86,8 @@ ul {
 }
 .avator-btn {
     margin-top: 21px;
-    padding:14px 0px 10px 30px;
-    width: 26px;
+    padding:0px 0px 10px 30px;
+    width: 32px;
     height: 32px;
    
 }
@@ -132,9 +152,12 @@ h1,h2,h3 {
 #avatar {
   width: 50px;
   height: 50px;
+  border-radius: 50px;
+  padding: 0px;
+  
 }
 
- #subscribe-btn{
+ .subscribe-btn{
   color:white;
   height: 30px;
   width: 100px;
@@ -152,4 +175,202 @@ h1,h2,h3 {
   height:12px;
   float: right;;
 
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+}
+html{
+  font-size: 10px;
+  font-family:Roboto, Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 65%;
+font-weight: normal;
+
+}
+body{
+  display: grid;
+}
+.container {
+  display: block;
+  width: 68%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.content-container {
+  border-bottom: 1px solid lightgray;
+  margin-top: 80px;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-flow: row;
+}
+
+.video-player{
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 100%;
+  height: 514px;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.view-bar{
+  display: flex;
+  margin-bottom: 20px;
+  color: #606060 ;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  flex-flow: row;
+  margin-top: 20px;
+  
+}
+
+
+
+.shares-btn {
+  font-weight: bold;
+}
+
+fas .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-ellipsis-h {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+button, label, .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-ellipsis-h {    
+  cursor: pointer;
+}
+   
+.sentiment-bar {
+  width: 123px;
+  background: rgba(91, 90, 92, 0.5);
+  margin-left: -9px;
+  margin-top: 20px;
+  margin-bottom: -21px;
+}
+.inside-bar {
+  width: 71%;
+  height: 3px;
+  background: rgb(58, 58, 58);
+}
+
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
+
+.avatar {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  
+}
+
+.avatar-logo {
+  
+  height: 50px;
+  width: 50px;
+ 
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.fa-check-circle {
+  color:#606060 ;
+  margin-left: 2px;
+  font-size: 1.2rem;
+}
+
+.subscribers {
+  color: rgb(110, 109, 109);
+  font-size: 1.2rem;
+  line-height: 2;
+  width: 200px;
+}
+h1{
+  color:black;
+}
+.title-channel {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: black;
+}
+
+.subscribe-btn {
+  background-color: #c00;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 2px;
+  width: 105px;
+  height: 36px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.subscribe-btn:active{
+background-color: rgb(175, 0, 0)
+}
+
+.description {
+  margin: 17px 0px 20px 40px;
+}
+
+.description {
+ 
+  line-height: 2.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+div .description .show-more {
+  border-style: none;
+  background: transparent;
+
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 0px;
+  color:#606060 ;
+  outline: none;
+  width: 150px;
+  font-style:normal;
+  margin-top: 0px;
+  letter-spacing: 0.007px;
+  text-transform: uppercase;
+
+line-height:21px;
+
+}
+
+.comments {
+  text-align: left;
+  font-size: 1.4rem;
+  padding-top: 32px;
+  font-weight: 400;
 }

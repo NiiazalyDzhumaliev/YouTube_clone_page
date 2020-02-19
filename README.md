@@ -3,7 +3,7 @@
 
 > YouTube_clone_page
 
-![screenshot](/images/YouTube_clone_page.png)
+![screenshot](/src/images/YouTube_clone_page.png)
 
 The page tries to clone the actual YouTube front end.
 
