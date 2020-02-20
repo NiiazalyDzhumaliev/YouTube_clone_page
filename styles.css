@@ -80,9 +80,6 @@ img {
 }
 
 .user-info {
-  display: flex;
-  width:100px;
-  height: 100px;
-  background-color: yellow;
+  display: flex;  
   margin-top: 20px;
 }
