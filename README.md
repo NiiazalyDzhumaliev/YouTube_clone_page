@@ -3,7 +3,7 @@
 
 > YouTube_clone_page
 
-![screenshot](/src/images/YouTube_clone_page.png)
+![screenshot](/src/images/youtube-clone-scrshot.png)
 
 The page tries to clone the actual YouTube front end.
 
@@ -21,8 +21,8 @@ The page tries to clone the actual YouTube front end.
 
 👤 **Author1**
 
-- Github: []()
-- Linkedin: []()
+- Github: [Niiazaly Dzhumaliev](https://github.com/diamondas1993)
+- Linkedin: [Niiazaly Dzhumaliev](https://www.linkedin.com/in/niiazaly-dzhumaliev-117707132/)
 
 👤 **Author2**
 
