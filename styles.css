@@ -64,10 +64,16 @@ img {
 }
 
 .recommend-content {
-  display: flex;  
+  display: flex;
   margin-bottom: 10px;
 }
 
 .recommend-description {
   font-weight: bold;
+}
+
+.recommend-top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
