@@ -1,99 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://use.fontawesome.com/efff5ee4a8.js"></script>
-    <script src="https://kit.fontawesome.com/d4de0f4540.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>YouTube Clone Page</title>
+  <meta charset="utf-8">
+  <title>YouTube clone page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://use.fontawesome.com/efff5ee4a8.js"></script>
+
 </head>
 
 <body>
+  <header>
     
-    
-        <header>
-            <span class="left-icons">
-              <i class="fa fas fa-bars fa-2x"></i>
-              <i class="fa fab fa-youtube fa-2x"></i>
-            </span>
-        
-            <span class="search-area">
-              <input type="text" id="search" name="search" placeholder="Search...">
-              <button type="button" class="search-button">Search</button>
-            </span>
-        
-            <span class="right-icons">
-        
-        
-              <i class="fa far fa-bell fa-2x"></i>
-        
-              <i class="fa fas fa-user fa-2x"></i>
-        
-              <i class="fa fas fa-camera fa-2x"></i>
-        
-            </span>
-        
-        
-        
-          </header>
+    <span class="left-icons">
+      <i class="fa fas fa-bars fa-lg"></i>
+      <i class="fa fab fa-youtube fa-lg"></i>
+    </span>
 
-   
-    <section class="container">
-        <div class="content-container">
-            <div class="video-player">
-                <iframe class="video"  src="https://www.youtube.com/embed/gTEXJsw62iU"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-                <h1>KENYA | Trip of a lifetime</h1>
-            <div class="view-bar">
-                <div class="views">
-                    <p>497,775 views•Aug 15, 2018</p>
-                </div>
-                <div>
-                    <div class="shares-btn">
-                        <button type="button" class="fas fa-thumbs-up"></button>
-                        <label>19K</label>
-                        <button type="button" class="fas fa-thumbs-down"></button>
-                        <label>210</label>
-                        <button type="button" class="fas fa-share"></button>
-                        <label>SHARE</label>
-                        <button type="button" class="fas fa-folder-plus"></button>
-                        <label>SAVE</label>
-                        <button type="button" class="fas fa-ellipsis-h"></button>
-                    </div>
-                    <div class="sentiment-bar">
-                        <div class="inside-bar"></div>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="channel">
-                <div class="avatar">
-                    <img id="avatar" src="https://yt3.ggpht.com/a/AGF-l7_KoVwUHRRtFb2ibmEa4Mxk0pMG5TD_tU8Q_w=s48-c-k-c0xffffffff-no-rj-mo" alt="avatar-logo">
-                    <div class="title">
-                        <div class="name-container">
-                            <a class="name" href="#">MrBrynnorth</a>
-                            <i class="fas fa-check-circle"></i>
-                        </div>
-                        <p class="subscribers">106K subscribers</p>
-                    </div>
-                </div>
-                <div class="subscribe">
-                    <button type="button" name="subscribe-btn" class="subscribe-btn">SUBSCRIBE</button>
-                </div>
-            </div>
-            <div class="description">
-                <p class="description">Kenya, a bunch of friends and 3 Land Rovers....the perfect mix to a great African adventure. We spent just over 2 weeks cruising through Kenya witnessing some amazing sights as we passed by Mount Kenya,  the Masai Mara, Naivasha, Hells Gate, Lake Nakuru, Lake Bogoria and even the</p>
-                <button type="button" name="show-more" class="show-more">SHOW MORE</button>
-            </div>
-        </div>
-        <p class="comments">1,605 Comments</p>
-    </section>
-    
+    <span class="search-area">
+      <input type="text" id="search" name="search" placeholder="Search...">
+      <button id="search-btn" type="button">Search</button>
+    </span>
+
+    <span class="right-icons">
+      <i class="fa far fa-bell fa-lg"></i>
+      <i class="fa fas fa-user fa-lg"></i>
+      <i class="fa fas fa-camera fa-lg"></i>
+    </span>
+
+  </header>
+
+  <div class="video-container">
+
+    <div class="youtube-video">
+      <iframe width="800" height="400" src="https://www.youtube.com/embed/i_yLpCLMaKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-description">
+      <h3>Charlie Puth & Selena Gomez - We Don't Talk Anymore [Official Live Performance]</h3>
+    </div>
+
+    <div class="views-section">
+      <span class="views-number">185 951 235 views</span>
+
+      <div class="mark-icons">
+        <span><i class="fa far fa-thumbs-up"></i>100k</span>
+        <span><i class="fa far fa-thumbs-down"></i>1k</span>
+        <button class="btn"><i class="fa fas fa-share-alt-square"></i></button>
+      </div>
+
+    </div>
+
+  </div>
 
 
 
