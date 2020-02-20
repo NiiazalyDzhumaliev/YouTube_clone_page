@@ -82,4 +82,14 @@ img {
 .user-info {
   display: flex;  
   margin-top: 20px;
+  justify-content: space-between;
+}
+.subscribe-btn {
+  background-color: #cd3d25;
+  color: white;
+  font-size: bold;
+  text-align: center;
+  height: 36px;
+  width: 105px;
+
 }
