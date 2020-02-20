@@ -2,6 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .left-icons {
@@ -20,6 +21,11 @@ header {
 
 #search {
   width: 30em;
+}
+
+.container {
+  display: flex;
+  background-color: #f7f9fc;
 }
 
 .video-container {
@@ -47,5 +53,20 @@ header {
 }
 
 .recommend-video {
-  flex-flow: column;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.recommend-content {
+  display: flex;
+}
+
+.recommend-description {
+  font-weight: bold;
 }
