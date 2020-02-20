@@ -49,3 +49,29 @@ header {
 .recommend-video {
   flex-flow: column;
 }
+/* recommended video */
+
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.next-video{
+  display: flex;
+  flex-direction:column ;
+  justify-content: flex-start;
+  margin-top: 65px;
+  margin-left: 20px;
+  
+
+
+}
+.next-video-container{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+
+}
+.next-video-description{
+  padding-left: 10px;
+}
