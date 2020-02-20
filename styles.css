@@ -55,7 +55,7 @@ header {
 .recommend-video {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 20px;
 }
 
@@ -64,7 +64,8 @@ img {
 }
 
 .recommend-content {
-  display: flex;
+  display: flex;  
+  margin-bottom: 10px;
 }
 
 .recommend-description {
