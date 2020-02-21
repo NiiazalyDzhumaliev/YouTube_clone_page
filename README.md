@@ -21,8 +21,8 @@ The page tries to clone the actual YouTube front end.
 
 👤 **Author1**
 
-- Github: [Niiazaly Dzhumaliev](https://github.com/diamondas1993)
-- Linkedin: [Niiazaly Dzhumaliev](https://www.linkedin.com/in/niiazaly-dzhumaliev-117707132/)
+- Github: []()
+- Linkedin: []()
 
 👤 **Author2**
 
