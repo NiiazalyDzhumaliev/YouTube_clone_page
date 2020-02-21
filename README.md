@@ -14,7 +14,7 @@ The page tries to clone the actual YouTube front end.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/diamondas1993/YouTube_clone_page/master/index.html)
+[Live Demo Link](https://raw.githack.com/diamondas1993/YouTube_clone_page/revised_page/index.html)
 
 
 ## Authors
