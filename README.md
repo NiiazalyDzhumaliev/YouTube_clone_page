@@ -3,7 +3,9 @@
 
 > YouTube_clone_page
 
-![screenshot](/src/images/screenshot.png)
+
+![screenshot](/img/screenshot.png)
+
 
 The page tries to clone the actual YouTube front end.
 
@@ -14,15 +16,15 @@ The page tries to clone the actual YouTube front end.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/diamondas1993/YouTube_clone_page/master/index.html)
+[Live Demo Link](https://raw.githack.com/diamondas1993/YouTube_clone_page/revised_page/index.html)
 
 
 ## Authors
 
 👤 **Author1**
 
-- Github: []()
-- Linkedin: []()
+- Github: [Niiazaly Dzhumaliev](https://github.com/diamondas1993)
+- Linkedin: [Niiazaly Dzhumaliev](https://www.linkedin.com/in/niiazaly-dzhumaliev-117707132/)
 
 👤 **Author2**
 
